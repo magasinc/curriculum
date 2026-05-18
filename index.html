@@ -9,9 +9,157 @@
 </head>
 
 <body>
-    <h1 style="text-align: right;">Curriculum Vitae</h1>
+    <h1 style="text-align: center;">Curriculum Vitae</h1>
 
-    <p style="text-align: right;">Mateo Gallegos Biografía</p>
+    <section>
+        <h2>Información Personal</h2>
+
+        <p style="text-align: left;">Mi nombre es Mateo Gallegos, vivo en Ecuador en la ciudad de Guayaquil, <br>
+            me gusta mucho crear cosas nuevas y compartirlas con mis compañeros, gracias a eso puedo mejorar mi
+            <strong>creatividad</strong>
+            y continuar <br>
+            creando más y mejores cosas
+        </p>
+
+        <div style="text-align: center;">
+            <img src="https://placehold.co/300x200/blue/white?text=Mi+Imagen" alt="Imagen personalizada">
+        </div>
+
+        <p>
+            Puedes visitar mi sitio favorito en
+            <a href="https://www.github.com" target="_blank">
+                GitHub
+            </a>.
+        </p>
+
+    </section>
+    <section>
+        <h2>Pasos para realizar un proyecto</h2>
+
+        <ol>
+            <li>Investigar el tema</li>
+            <li>Diseñar la idea</li>
+            <li>Programar la solución</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+
+        <ul>
+            <li>Creatividad</li>
+            <li>Trabajo en equipo</li>
+            <li>Programación HTML</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Horario de Actividades</h2>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+            </tr>
+
+            <tr>
+                <th>Mañana</th>
+                <td>Estudiar</td>
+                <td>Programar</td>
+            </tr>
+
+            <tr>
+                <th>Tarde</th>
+                <td>Leer</td>
+                <td>Hacer ejercicios</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Mapa</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="400" height="300" style="border:0;"
+            allowfullscreen="">
+        </iframe>
+    </section>
+
+
+    <section>
+        <h2>Mi video favorito</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ys7GXeK-lAc" frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+
+        <form action="#" method="post">
+
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div>
+                <label for="ciudad">Ciudad:</label>
+
+                <select id="ciudad" name="ciudad">
+                    <option value="guayaquil">Guayaquil</option>
+                    <option value="quito">Quito</option>
+                    <option value="cuenca">Cuenca</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Género</legend>
+
+                <label>
+                    <input type="radio" name="genero" value="masculino">
+                    Masculino
+                </label>
+
+                <label>
+                    <input type="radio" name="genero" value="femenino">
+                    Femenino
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Habilidades</legend>
+
+                <label>
+                    <input type="checkbox" name="habilidades" value="html">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="checkbox" name="habilidades" value="css">
+                    CSS
+                </label>
+
+                <label>
+                    <input type="checkbox" name="habilidades" value="javascript">
+                    JavaScript
+                </label>
+            </fieldset>
+
+            <div>
+                <label for="comentario">Comentario:</label>
+
+                <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </section>
+
 </body>
 
 </html>
