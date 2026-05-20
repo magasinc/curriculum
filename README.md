@@ -15,26 +15,9 @@ Backend • Base de Datos • Springboot • Web
 
 <br>
 
-<table>
-   <thead>
-    <tr>
-        <th></th>
-        <td>Java</td>
-        <td>Python</td>
-        <td>JavaScript</td>
-        <td>MySQL</td>
-    </tr>
-   </thead>
-   <tbody>
-    <tr>
-      <th><p style="text-align: center;">Nivel de uso</p></th>
-      <td><p style="text-align: center;">🟥</p></td>
-      <td><p style="text-align: center;">🟨</p></td>
-      <td><p style="text-align: center;">🟩</p></td>
-      <td><p style="text-align: center;">🟨</p></td>
-    </tr>
-  </tbody>
+## Uso de Lenguajes de programación en proyectos
 
-</table>
-
-
+|      | Description | Test Text     |
+| :---:        |    :----:   |          :---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
